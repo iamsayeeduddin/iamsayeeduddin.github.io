@@ -25,6 +25,7 @@ header {
 header .logo {
   color: #fff;
   height: 50px;
+  width: auto;
   line-height: 50px;
   font-size: 24px;
   font-weight: bold;
@@ -86,8 +87,7 @@ header nav ul li a:hover {
 
 /* Animation */
 .anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
   top: 25px;
 }
 @keyframes typewriter {
@@ -146,8 +146,7 @@ h2 {
 .hero-section.text {
   width: 100%;
   height: 100vh;
-  background: #161415
-    url(https://www.gauravghai.dev/images/header-background.jpg);
+  background: #161415 url(./pexels-hasan-albari-1229861.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
