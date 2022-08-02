@@ -95,7 +95,7 @@ header nav ul li a:hover {
     width: 0;
   }
   to {
-    width: 21em;
+    width: 14em;
   }
 }
 @keyframes blinkTextCursor {
@@ -488,7 +488,7 @@ footer {
   margin: auto;
   padding: 0 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap-reverse;
   color: white;
